@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bec8d1;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-image: url(https://i.redd.it/tub3qyte92781.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #373b3e;
+}
+
+.section-container {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #86cecb;
+    border-radius: 5px;
+    color: #373b3e;
+}
+
+summary {
+    font-size: 18px;
+    font-weight: bold;
+    color: #137a7f;
+    cursor: pointer;
+}
+
+input, select, button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #373b3e;
+}
+
+button {
+    background-color: #137a7f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0f6064;
+}
+
+.ticket-price {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #e12885;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #373b3e;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(1);
+}
